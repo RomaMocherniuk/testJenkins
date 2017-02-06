@@ -7,7 +7,7 @@
  * user guide available at https://docs.gradle.org/3.2.1/userguide/tutorial_java_projects.html
  */
 
-/*
+
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 
@@ -16,6 +16,10 @@ repositories {
     // Use 'jcenter' for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+}
+
+task printHello {
+    print("Heelo jenkins from gradle")
 }
 
 // In this section you declare the dependencies for your production and test code
@@ -29,4 +33,4 @@ dependencies {
     // 'test.useTestNG()' to your build script.
     testCompile 'junit:junit:4.12'
 }
-*/
+
